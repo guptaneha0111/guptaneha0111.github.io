@@ -28,7 +28,7 @@ export default function Navbar() {
           <li>Home</li>
         </Link>
         <Link  to="about"
-              offset={150}
+              offset={-90}
 
               smooth={true}
               duration={1500}
@@ -37,7 +37,7 @@ export default function Navbar() {
           <li>About</li>
         </Link>
         <Link  to="skill"
-              offset={-50}
+              offset={-90}
               smooth={true}
               duration={1500}
               spy={true}
