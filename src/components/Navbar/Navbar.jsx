@@ -53,6 +53,7 @@ export default function Navbar() {
           <li>Projects</li>
         </Link>
         <Link to="contact"
+              offset={-150}
               smooth={true}
               duration={1000}
               spy={true}
