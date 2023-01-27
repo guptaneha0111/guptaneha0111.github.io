@@ -44,10 +44,24 @@ color:#d3d3d3
 #bar{
   display: none;
 }
+.btnresumenav{
+  color: #131f33;
+  background-color: white;
+  width: 100%;
+  height: 50px;
+  margin-top: 5px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.liiconimg{
+  font-size: 30px;
+  margin-top: -20px;
+}
 @media only screen and (min-width:320px) and (max-width:480px){
       #bar{
         display: block !important;
       }
+      
 } 
 @media only screen and (min-width:481px) and (max-width:890px){
   #bar{

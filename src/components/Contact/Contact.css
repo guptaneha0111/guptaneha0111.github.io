@@ -1,17 +1,30 @@
-.fontlink{
+ .fontlink{
     font-size:26px;
    color:white;
 
 }
 .connect{
     width: 89%;
-   
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
     text-align: center;
   margin-left: 90px;
     background-color: #131f33;
     background-size: 200% 200%;
     box-sizing: border-box;
     padding: 15px;
+}
+.middlesection{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
+  justify-content: space-around;
+  margin-top: 40px;
+}
+.iconlinkedincontact{
+  font-size: 50px;
+  color: white;
 }
 .container{
     width: 73%;
@@ -43,7 +56,7 @@
 }
 .con-head{
     margin-bottom: 4%;
-    /* font-size: 16px; */
+   
 }
 .mail-id{
     color: #f2e8ca;
@@ -54,6 +67,10 @@
 .connect{
     width: 90%;
     margin: auto;
+   
+}
+.middlesection{
+  grid-template-columns: repeat(1, 1fr);
 }
    
    } 
@@ -61,12 +78,20 @@
     .connect{
         width: 90%;
         margin: auto;
+        
     }
-     
+    .middlesection{
+      grid-template-columns: repeat(1, 1fr);
+    }
    }
    @media only screen and (min-width:890px) and (max-width:1580px){
     .connect{
         width: 90%;
     
     }
-   }
+    /* .middlesection{
+      grid-template-columns: repeat(1, 1fr);
+    } */
+   } 
+
+   

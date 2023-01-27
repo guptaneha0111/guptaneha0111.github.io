@@ -2,6 +2,8 @@
 import { Link, animateScroll } from "react-scroll";
 import React from "react";
 import Hamburger from  'hamburger-react';
+// import RemoveRedEyeIcon from '@mui/icons-material/RemoveRedEye';
+import {AiFillEye} from "react-icons/ai"
 import "./Navbar.css";
 
 
@@ -60,14 +62,18 @@ export default function Navbar() {
               hashSpy={true}>
           <li>Contact</li>
         </Link>
+        
         <a
           href="https://drive.google.com/file/d/1EgF48O95bq3SSJ2qJ6lNlTQ6wB94AGvS/view?usp=sharing"
           target="_blank"
           rel="noreferrer"
+         
           >
-          <li>Resume</li> 
+          <li>Resume<AiFillEye className="liiconimg" /></li> 
+         
           
         </a>
+      
       </ul>
       
     </div>
