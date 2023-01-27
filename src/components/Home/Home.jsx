@@ -31,7 +31,7 @@ const Home=()=>{
         <a
           href="https://drive.google.com/uc?export=download&id=1EgF48O95bq3SSJ2qJ6lNlTQ6wB94AGvS"
          >
-          <button className='portButton' style={{"border-radius": "10px"}}>Resume<BiDownload className="download"/></button>
+          <button className='portButton' style={{"border-radius": "10px"}}>Download Resume<BiDownload className="download"/></button>
         </a>
       </div>
       <div>
