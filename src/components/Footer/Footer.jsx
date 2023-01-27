@@ -1,9 +1,11 @@
 import React from 'react';
 import './Footer.css';
 import { FaLinkedinIn, FaGithub } from 'react-icons/fa'
+import Gototop from "../topscroller/Gototop"
 
 const Footer = () => {
     return (
+        <>
         <footer id='footer'>
             <a href="#header" className='footer__logo'>Neha Kumari</a>
             <ul className="permalinks">
@@ -20,7 +22,11 @@ const Footer = () => {
             <div className="footer__copyright">
                 <small>Designed amd developed by Neha Kumari, @2023</small>
             </div>
+            
         </footer>
+        <Gototop/>
+        </>
+        
     )
 }
 
