@@ -29,8 +29,7 @@ const Home=()=>{
               />
           </h1>
         <a
-          href="https://drive.google.com/uc?export=download&id=1EgF48O95bq3SSJ2qJ6lNlTQ6wB94AGvS"
-          target="_blank" 
+          href="https://drive.google.com/uc?export=download&id=1EgF48O95bq3SSJ2qJ6lNlTQ6wB94AGvS" download onClick={()=>window.open('https://drive.google.com/file/d/1EgF48O95bq3SSJ2qJ6lNlTQ6wB94AGvS/view?usp=sharing')}
          >
           <button className='portButton' style={{"border-radius": "10px"}}>Download Resume<BiDownload className="download"/></button>
         </a>

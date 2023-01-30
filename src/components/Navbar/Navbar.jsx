@@ -2,8 +2,6 @@
 import { Link, animateScroll } from "react-scroll";
 import React from "react";
 import Hamburger from  'hamburger-react';
-// import RemoveRedEyeIcon from '@mui/icons-material/RemoveRedEye';
-import {AiFillEye} from "react-icons/ai"
 import "./Navbar.css";
 
 
@@ -69,7 +67,7 @@ export default function Navbar() {
           rel="noreferrer"
          
           >
-          <li>Resume<AiFillEye className="liiconimg" /></li> 
+          <li>Resume</li> 
          
           
         </a>
