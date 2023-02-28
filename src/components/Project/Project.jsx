@@ -26,7 +26,7 @@ export default function Project(props) {
             <p>
              It is one of the leading global luxury fashion e-commerce platforms for men, women and kids.
             </p>
-            <h3 className='tech_stack_h3'>Tech Stack:-</h3>
+            <h3 className='tech_stack_h3'>Tech Stacks:-</h3>
 
             <div className="tech">
               <div>
@@ -76,7 +76,7 @@ export default function Project(props) {
             It is a clone of Semrush, the online visibility
              management and content marketing SaaS platform.
             </p>
-            <h3 className='tech_stack_h3'>Tech Stack:-</h3>
+            <h3 className='tech_stack_h3'>Tech Stacks:-</h3>
 
             <div className="tech">
               <div>
@@ -120,7 +120,7 @@ export default function Project(props) {
             <p>
              It is an Indian e-commerce company that sells cosmetics and personal care products.
             </p>
-            <h3 className='tech_stack_h3'>Tech Stack:-</h3>
+            <h3 className='tech_stack_h3'>Tech Stacks:-</h3>
 
             <div className="tech">
               <div>
@@ -164,7 +164,7 @@ export default function Project(props) {
             <p>
            It is a website and app for counting calories and tracking your diet and health metrics.
             </p>
-            <h3 className='tech_stack_h3'>Tech Stack:-</h3>
+            <h3 className='tech_stack_h3'>Tech Stacks:-</h3>
 
             <div className="tech">
               <div>
