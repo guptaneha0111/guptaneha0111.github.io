@@ -1,7 +1,7 @@
 #footer {
     
     background: #131f33;
-    padding: 3rem 0;
+    padding: 1.5rem 0;
     text-align: center;
     font-size: 0.9rem;
     margin-top: 5rem;
@@ -19,7 +19,7 @@ li{
 .footer__logo {
     font-size: 2rem;
     font-weight: 500;
-    margin-bottom: 2rem;
+    margin-bottom: 0.5rem;
     display: inline-block;
 }
 
@@ -28,14 +28,14 @@ li{
     flex-wrap: wrap;
     justify-content: center;
     gap: 2rem;
-    margin: 0 auto 2rem;
+    margin: 0 auto 0.5rem;
 }
 
 .footer__socials {
     display: flex;
     justify-content: center;
     gap: 1rem;
-    margin-bottom: 2rem;
+    margin-bottom: 0.5rem;
 }
 
 .footer__socials a{
@@ -52,7 +52,7 @@ li{
 }
 
 .footer__copyright{
-    margin-bottom: 2rem;
+    margin-bottom: 0.5rem;
     color: white;
 }
 

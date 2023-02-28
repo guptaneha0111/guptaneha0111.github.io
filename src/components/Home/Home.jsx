@@ -3,7 +3,7 @@ import Typewriter from 'typewriter-effect'
 import React from "react";
 import {BiDownload} from 'react-icons/bi'
 import "./Home.css";
-import  portfoliopersonalimg  from "../../../src/resource/Personal/portperimg.jpg";
+import  portfoliopersonalimg  from "../../../src/resource/Personal/portfolio_img.jpg";
 // import { useColorMode } from '@chakra-ui/react';
 
 const Home=()=>{
@@ -29,7 +29,7 @@ const Home=()=>{
               />
           </h1>
         <a
-          href="https://drive.google.com/uc?export=download&id=1EgF48O95bq3SSJ2qJ6lNlTQ6wB94AGvS" download onClick={()=>window.open('https://drive.google.com/file/d/1EgF48O95bq3SSJ2qJ6lNlTQ6wB94AGvS/view?usp=sharing')}
+          href="https://drive.google.com/uc?export=download&id=1DfsiTH5NY2Shw0Uan6_0D6WdihV3a0AP" download onClick={()=>window.open('https://drive.google.com/file/d/1DfsiTH5NY2Shw0Uan6_0D6WdihV3a0AP/view?usp=sharing')}
          >
           <button className='portButton' style={{"border-radius": "10px"}}>Download Resume<BiDownload className="download"/></button>
         </a>

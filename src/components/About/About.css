@@ -24,7 +24,7 @@
     
     }
     .about-img{
-    width:100% ;
+    width:80% ;
     border-radius: 4%;
     margin-left: -60px;
     }
@@ -81,7 +81,7 @@
       
       }
       .about-img{
-       margin-left: -5px;
+       margin-left: 10px;
         }
       .about-2{
         width: 100%;
@@ -105,6 +105,9 @@
         .about-2{
           width: 100%;
         }
+        .about-img{
+          margin-left: 20px;
+           }
     }
     @media only screen and (min-width:890px) and (max-width:1580px){
       .about-2{

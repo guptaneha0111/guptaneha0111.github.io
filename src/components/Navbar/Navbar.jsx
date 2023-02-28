@@ -62,11 +62,13 @@ export default function Navbar() {
         </Link>
         
         <a
-          href="https://drive.google.com/file/d/1EgF48O95bq3SSJ2qJ6lNlTQ6wB94AGvS/view?usp=sharing"
-          target="_blank"
-          rel="noreferrer"
-         
+          // href="https://drive.google.com/file/d/1EgF48O95bq3SSJ2qJ6lNlTQ6wB94AGvS/view?usp=sharing"
+          // target="_blank"
+          // rel="noreferrer"
+          
+          href="https://drive.google.com/uc?export=download&id=1DfsiTH5NY2Shw0Uan6_0D6WdihV3a0AP" download onClick={()=>window.open('https://drive.google.com/file/d/1DfsiTH5NY2Shw0Uan6_0D6WdihV3a0AP/view?usp=sharing')}
           >
+    {/* https://drive.google.com/file/d/1DfsiTH5NY2Shw0Uan6_0D6WdihV3a0AP/view?usp=sharing */}
           <li>Resume</li> 
          
           
